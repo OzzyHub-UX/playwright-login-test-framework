@@ -1,4 +1,4 @@
-# Playwright Take Home Assingment - Testing Login Functionality 
+# Playwright - Testing Login Functionality 
 
 This project focuses on testing the login functionality of expand testing application ensuring its reliability, functionality, and user-friendliness. It includes a series of test cases designed to cover various scenarios and edge cases related to the login process.
 
