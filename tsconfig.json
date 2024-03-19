@@ -1,16 +1,16 @@
 {
     "compilerOptions": {
-      "target": "ESNext",
+      "target": "ESNext", // Specifiy which ES synatx
       "module": "CommonJS",
-      // "strict": true,
-      "esModuleInterop": true,
+      // "strict": true, // This will imply strict TypeScript Rules
+      "esModuleInterop": true, // Gets rid of ES6 Common JS synatx rulings
       "skipLibCheck": true,
-      "forceConsistentCasingInFileNames": true,
-      "noImplicitAny": true,
+      "forceConsistentCasingInFileNames": true, 
+      "noImplicitAny": true, // Use Any type
       "noUnusedLocals": true,
       "noUnusedParameters": true,
       "resolveJsonModule": true
     },
-    "include": ["**/*.ts", ".eslintrc.js"],
+    "include": ["**/*.ts", ".eslintrc.js"], // Files to include in the compilation
     "exclude": ["node_modules"]
   }
