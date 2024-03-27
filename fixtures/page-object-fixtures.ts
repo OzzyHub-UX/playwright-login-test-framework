@@ -19,7 +19,6 @@ export const test = base.extend<MyFixture>({
 
     // Test runner pauses the execution to allow the test to perform actions
     await use(loginFunction)
-    
     },
 })
 

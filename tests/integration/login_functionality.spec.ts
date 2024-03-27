@@ -2,7 +2,7 @@ import { expect, test } from "../../fixtures/page-object-fixtures"
 
 test.describe('ExpandTesting - Login Functionality 01', () => {
 
-    test('Test Case 01 - Validate the login form', async ({ loginFunction }) => {
+    test.only('Test Case 01 - Validate the login form', async ({ loginFunction }) => {
         
         /**
          * Navigate to https://practice.expandtesting.com/login
@@ -82,7 +82,7 @@ test.describe('ExpandTesting - Login Functionality 01', () => {
     // Negative Test Cases For Login Functionality 
 
     /** 
-         * Navigate to https://techglobal-training.com/frontend/project-2
+         * Navigate to Navigate to https://practice.expandtesting.com/login
          * Enter the username as "John"
          * Enter the password as "SuperSecretPassword!"
          * Click on the "Login" button
@@ -90,7 +90,7 @@ test.describe('ExpandTesting - Login Functionality 01', () => {
         */
 
         /**
-         * Navigate to https://techglobal-training.com/frontend/project-2
+         * Navigate to Navigate to https://practice.expandtesting.com/login
          * Enter the username as "practice"
          * Enter the password as "Test1234!"
          * Click on the "Login" button
@@ -98,7 +98,7 @@ test.describe('ExpandTesting - Login Functionality 01', () => {
         */
 
         /**
-         * Navigate to https://techglobal-training.com/frontend/project-2
+         * Navigate to Navigate to https://practice.expandtesting.com/login
          * Enter the username as "I love testing"
          * Enter the password as "Password"
          * Click on the "Login" button
@@ -129,9 +129,9 @@ test.describe('ExpandTesting - Login Functionality 01', () => {
 
                 await loginFunction.fieldFill(data.username, data.password)
                 await expect (loginFunction.errorMsg).toHaveText(data.message)
-
             })
         })
 
-        
     })
+
+    // 

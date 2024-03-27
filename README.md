@@ -21,7 +21,7 @@ This project focuses on testing the login functionality of expand testing applic
 
 ### Steps to Produce Project
 
-        Login Test Functionality 
+    Login Test Functionality 
 
 Prerequisites: git & node.js & vscode
 

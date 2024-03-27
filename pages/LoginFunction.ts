@@ -17,7 +17,7 @@ export class LoginFunction {
 
 // Locators for login functionality 
 constructor(page: Page) {
-    this.page = page
+    this.page = page  
     this.userNameField = page.locator('.mb-3:nth-child(1) input')
     this.passwordField = page.locator('.mb-3:nth-child(2) input')
     this.heading = page.locator('.container h1')
